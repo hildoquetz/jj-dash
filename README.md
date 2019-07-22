@@ -55,7 +55,7 @@ Insira um elemento `<div>` e especifique o id.
 <body>
     <div id="myChart"></div>
 </body>
-1
+
 ```
 
 Em seguida, atrevés da tag `<script>`, selecione o elemento criado e insira os parâmetros desejados. 
