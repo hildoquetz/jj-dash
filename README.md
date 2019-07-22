@@ -1,8 +1,15 @@
 # jj-dash 
 Uma forma diferente de criar a dashboards no [ReportPortal](http://reportportal.com/).
 
+### Exemplos de Layout
+
+Exemplo 1: [https://codepen.io/hildoquetz/full/XvmqeN](https://codepen.io/hildoquetz/full/XvmqeN)
+
+Exemplo 2: [https://codepen.io/hildoquetz/full/Lwpmam](https://codepen.io/hildoquetz/full/Lwpmam)
+
+
 ## Dependências
----
+
 Para funcionar corretamente, a lib depende do [Boostrap v3.3.7](https://getbootstrap.com/docs/3.3/getting-started/) e [jQuery v3.4.1](https://jquery.com/). Você pode utilizar o CDN a seguir. 
 
 
@@ -14,15 +21,13 @@ Para funcionar corretamente, a lib depende do [Boostrap v3.3.7](https://getboots
 
 
 ## Como utilizar
---- 
-Insira a chamada para a lib dash.js. Certifiue-se antes de chamar as dependências. 
+
+Insira a chamada para a lib dash.js. Certifique-se antes de chamar as dependências. 
 
 ``` html
 <!DOCTYPE html>
 <html>
-
     <head>
-        <meta charset="UTF-8">
         
         <title>JJ Dash JS</title>
 
@@ -35,6 +40,7 @@ Insira a chamada para a lib dash.js. Certifiue-se antes de chamar as dependênci
         <!-- JJ Dash JS -->
         <script src="dash.js"></script>
         
+        <meta charset="UTF-8">
     </head>
 
 <body>
@@ -42,7 +48,7 @@ Insira a chamada para a lib dash.js. Certifiue-se antes de chamar as dependênci
 </html>
 ```
 
-Insira um elemento `<div>` e especifique um id.  
+Insira um elemento `<div>` e especifique o id.  
 
 ``` html
 
@@ -61,7 +67,6 @@ Em seguida, atrevés da tag `<script>`, selecione o elemento criado e insira os 
           url: [
                 'http://reportportal.us/reportportal/Proxy.aspx?reportId=463&toolbar=0&filters=0&description=0&name=0&scroll=0', // URL do relatório 
                 'http://reportportal.us/reportportal/Proxy.aspx?reportId=463&toolbar=0&filters=0&description=0&name=0&scroll=0', // Você pode inserir mais de uma URL
-
             ],
             height: '250px', // Indique a altura ideal para a apresentação do relatório
             loader: true, // Indica a apresentação do loader na pagina,
@@ -74,7 +79,7 @@ Em seguida, atrevés da tag `<script>`, selecione o elemento criado e insira os 
 
 
 ## Opções
---- 
+
 
 A seguir estão as opções disponveis para a lib.
 
